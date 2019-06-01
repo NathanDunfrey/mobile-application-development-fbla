@@ -1,0 +1,169 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Device (3.0.1)
+  - DropDown (2)
+  - DZNEmptyDataSet (1.8.1)
+  - FBSDKCoreKit (4.22.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.22.0):
+    - FBSDKCoreKit
+  - Firebase/Auth (3.17.0):
+    - Firebase/Core
+    - FirebaseAuth (= 3.1.1)
+  - Firebase/Core (3.17.0):
+    - FirebaseAnalytics (= 3.9.0)
+    - FirebaseCore (= 3.6.0)
+  - Firebase/Database (3.17.0):
+    - Firebase/Core
+    - FirebaseDatabase (= 3.1.2)
+  - Firebase/Storage (3.17.0):
+    - Firebase/Core
+    - FirebaseStorage (= 1.1.0)
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseAuth (3.1.1):
+    - FirebaseAnalytics (~> 3.7)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (3.6.0):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseDatabase (3.1.2):
+    - FirebaseAnalytics (~> 3.7)
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - FirebaseStorage (1.1.0):
+    - FirebaseAnalytics (~> 3.7)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - Format (0.5.0)
+  - GoogleSignIn (4.0.2):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GSMessages (1.3.4)
+  - GTMOAuth2 (1.1.4):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.9):
+    - GTMSessionFetcher/Full (= 1.1.9)
+  - GTMSessionFetcher/Core (1.1.9)
+  - GTMSessionFetcher/Full (1.1.9):
+    - GTMSessionFetcher/Core (= 1.1.9)
+  - Hero (0.3.6)
+  - ImagePicker (2.1.1)
+  - Instructions (0.5.0):
+    - Instructions/Core (= 0.5.0)
+  - Instructions/Core (0.5.0)
+  - JSQMessagesViewController (7.3.4):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - NVActivityIndicatorView (3.6.1)
+  - PermissionScope (1.1.1)
+  - Popover (1.0.5)
+  - Presentr (1.2.3)
+  - Pulley (1.4)
+  - QuiltView (0.1.4)
+  - SwiftLint (0.18.1)
+
+DEPENDENCIES:
+  - Bolts
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - Device (~> 3.0.1)
+  - DropDown
+  - DZNEmptyDataSet
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Storage
+  - Format
+  - GoogleSignIn
+  - GSMessages
+  - Hero
+  - ImagePicker (from `https://github.com/hyperoslo/ImagePicker.git`)
+  - Instructions (from `https://github.com/ephread/Instructions.git`)
+  - JSQMessagesViewController
+  - NVActivityIndicatorView
+  - PermissionScope
+  - Popover
+  - Presentr
+  - Pulley
+  - QuiltView
+  - SwiftLint
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  ImagePicker:
+    :git: https://github.com/hyperoslo/ImagePicker.git
+  Instructions:
+    :git: https://github.com/ephread/Instructions.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: acc480fbe023c6e5fe40f68593f4a70a8c4c7ad5
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  ImagePicker:
+    :commit: 0e1c45311b8b586e1bb7ab29bc9be395737c18b7
+    :git: https://github.com/hyperoslo/ImagePicker.git
+  Instructions:
+    :commit: e8b448d108908d9bb47f5d1b00f57fcc0d77e6f3
+    :git: https://github.com/ephread/Instructions.git
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Device: c793851589633bc515b65e08a2b5a223bc87c45a
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FBSDKCoreKit: c693bad19feb225469eeff14452ba364522ee48b
+  FBSDKLoginKit: 1fa529fc622d7b32ebeaffbecd377180833c6d30
+  Firebase: 4b66b5b59c43edac745b87f0c87e42cdd0279c13
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseAuth: cc8a1824170adbd351edb7f994490a3fb5c18be6
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseDatabase: 05c96d7b43a7368dc91c07791adb49683e1738d1
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  FirebaseStorage: a5c55b23741a49a72af8f30f95b3bb5ddbeda12d
+  Format: b6966297bcb3af90774ad34a8ad756cb26ebd7e3
+  GoogleSignIn: d7ad83f13480e1f30453471d00d19b5293ac46af
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GSMessages: b26e37bb6017b11d61f2708684179d5e9495c063
+  GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
+  GTMSessionFetcher: 5c046c76a1f859bc9c187e918f18e4fc7bb57b5e
+  Hero: d3c6f4dd80cdcdbb339be64e57ae3b5c3ab9938c
+  ImagePicker: 4845cf22f8dd201ff5730474b619f017d374a3b8
+  Instructions: 6976f674ce788aefec475be6f18500572f1645d4
+  JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  NVActivityIndicatorView: 9f52a7f84bf5c6a798722c450fe3c198e01c56ed
+  PermissionScope: a30c16e015779ba27c97c124e7539e27b5829de2
+  Popover: f31b0ef6f43192256e6fcf13a0ce10f01c803159
+  Presentr: a21c7bbb3532c8ff60320e235c0a4869e72f8885
+  Pulley: 3d47a5ca819b8f35a63e9a4811d35035d484d1d9
+  QuiltView: 991e9710b432946b04bcd5721ee4b14175fa0292
+  SwiftLint: b467d08f5b25dc3b3cfed243d8e1b74b91714c67
+
+PODFILE CHECKSUM: 766fa3de1b44d9bd0d00ecfc58f3db3023375f20
+
+COCOAPODS: 1.2.0
