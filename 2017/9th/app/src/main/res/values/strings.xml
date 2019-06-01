@@ -1,0 +1,17 @@
+<!-- string.xml
+   =============================================================================
+                         Josh Talley and Daniel O'Donnell
+                                Dulaney High School
+                      Mobile Application Development 2016-17
+   =============================================================================
+-->
+<resources>
+    <string name="app_name">FBLA Yard Sale</string>
+    <string name="updateinfo"></string>
+    <string name="accountstate">state</string>
+    <string name="accountregion">region</string>
+    <string name="accountchapter">chapter</string>
+    <string name="accountaddress">address</string>
+    <string name="accountzip">zip</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
