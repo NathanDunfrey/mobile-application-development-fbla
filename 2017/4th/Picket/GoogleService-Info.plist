@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>654071451776-lj24gpablfg8b8v5q34nhc560t8klu07.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.654071451776-lj24gpablfg8b8v5q34nhc560t8klu07</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBFtGk78hknApaTgpSw1SIB6Od-TWjvNl0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>654071451776</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Yash-Kakodkar.Picket</string>
+	<key>PROJECT_ID</key>
+	<string>picket-1ef19</string>
+	<key>STORAGE_BUCKET</key>
+	<string>picket-1ef19.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:654071451776:ios:d2d0f26e44b4c602</string>
+	<key>DATABASE_URL</key>
+	<string>https://picket-1ef19.firebaseio.com</string>
+</dict>
+</plist>

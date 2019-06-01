@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="NK2-QJ-0Ct">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="aHG-Xd-O8X">
+                                <rect key="frame" x="152.5" y="298.5" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="A37-av-VOL"/>
+                                    <constraint firstAttribute="width" secondItem="aHG-Xd-O8X" secondAttribute="height" multiplier="1:1" id="MMV-de-S79"/>
+                                    <constraint firstAttribute="width" secondItem="aHG-Xd-O8X" secondAttribute="height" multiplier="1:1" id="WEy-vz-brM"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aHG-Xd-O8X" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="15P-Sw-kKg"/>
+                            <constraint firstItem="NK2-QJ-0Ct" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="8eD-y7-fEz"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="NK2-QJ-0Ct" secondAttribute="bottom" id="Car-EB-6PJ"/>
+                            <constraint firstAttribute="trailing" secondItem="NK2-QJ-0Ct" secondAttribute="trailing" id="MA0-5b-2fG"/>
+                            <constraint firstItem="aHG-Xd-O8X" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="MjE-NV-KTE"/>
+                            <constraint firstItem="NK2-QJ-0Ct" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Thv-mA-9XG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="750" height="1334"/>
+        <image name="Logo" width="175" height="176"/>
+    </resources>
+</document>
