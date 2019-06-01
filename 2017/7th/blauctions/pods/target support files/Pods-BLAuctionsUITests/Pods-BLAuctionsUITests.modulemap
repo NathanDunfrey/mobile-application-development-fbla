@@ -1,0 +1,6 @@
+framework module Pods_BLAuctionsUITests {
+  umbrella header "Pods-BLAuctionsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
