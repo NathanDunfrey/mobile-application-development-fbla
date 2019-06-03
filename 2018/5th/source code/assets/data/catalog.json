@@ -1,0 +1,188 @@
+[
+  {
+    "title": "Life of Pi",
+    "author": "Yann Martel",
+    "cover": {"url": "https://s3-ap-southeast-2.amazonaws.com/assets.allenandunwin.com/images/small/9781782118695.jpg", "x": 1535, "y": 2327},
+    "tags": ["AP Literature"]
+  },
+  {
+    "title": "Ready Player One",
+    "author": "Ernest Cline",
+    "cover": {"url": "https://i.imgur.com/0taJjyf.jpg", "x": 324, "y": 499},
+    "tags": ["Science Fiction"]
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "cover": {"url": "http://covers2.booksamillion.com/covers/bam/0/74/327/356/0743273567.jpg", "x": 1400, "y": 2142},
+    "tags": ["Essentials", "AP Literature"]
+  },
+  {
+    "title": "Catcher in The Rye",
+    "author": "J. D. Salinger",
+    "cover": {"url": "https://i.imgur.com/ES5BTj0.jpg", "x": 307, "y": 499},
+    "tags": ["Essentials"]
+  },
+  {
+    "title": "Book Thief",
+    "author": "Markus Zusak",
+    "cover": {"url": "https://i.imgur.com/p7XuIWw.jpg", "x": 319, "y": 499},
+    "tags": ["Essentials"]
+  },
+  {
+    "title": "Lincoln in the Bardo",
+    "author": "George Saunders",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780812985405?height=284&alt=cover_coming_soon.jpg", "x": 189 , "y": 284},
+    "tags": ["Fiction"]
+  },
+  {
+    "title": "The Deceivers",
+    "author": "Alex Berenson",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780698407534?height=284&alt=cover_coming_soon.jpg", "x": 188, "y": 284},
+    "tags": ["Fiction", "Mystery", "Suspense"]
+  },
+  {
+    "title": "Look For Me",
+    "author": "Lisa Gardner",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9781524742058?height=284&alt=cover_coming_soon.jpg", "x": 188, "y": 284},
+    "tags": ["Fiction", "Mystery", "Suspense"]
+  },
+  {
+    "title": "Directorate S",
+    "author": "Steve Coll",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9781594204586?height=284&alt=cover_coming_soon.jpg", "x": 187, "y": 284},
+    "tags": ["Nonfiction", "History", "Politics"]
+  },
+  {
+    "title": "Everything Happens For a Reason",
+    "author": "Kate Bowler",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780399592065?height=284&alt=cover_coming_soon.jpg", "x": 188, "y": 284},
+    "tags": ["Nonfiction", "Biographies"]
+  },
+  {
+    "title": "Autumn",
+    "author": "Karl Ove Knausgaard",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780399563300?height=284&alt=cover_coming_soon.jpg", "x": 171, "y": 284},
+    "tags": ["Classics"]
+  },
+  {
+    "title": "South and West",
+    "author": "Joan Didion",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9781524732790?height=284&alt=cover_coming_soon.jpg", "x": 189, "y": 284},
+    "tags": ["Classics"]
+  },
+  {
+    "title": "Blood Fury",
+    "author": "J.R. Ward",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780451475343?height=284&alt=cover_coming_soon.jpg", "x": 173, "y": 284},
+    "tags": ["Fantasy", "Fiction"]
+  },
+  {
+    "title": "Leopard's Blood",
+    "author": "Christine Feehan",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780399583971?height=284&alt=cover_coming_soon.jpg", "x": 176, "y": 284},
+    "tags": ["Fantasy", "Fiction"]
+  },
+  {
+    "title": "How Democracies Die",
+    "author": "Daniel Ziblastt",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9781524762933?height=284&alt=cover_coming_soon.jpg", "x": 240, "y": 284},
+    "tags": ["History", "Politics"]
+  },
+  {
+    "title": "The Grave's a Fine and Private Place",
+    "author": "Alan Bradley",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780345539991?height=284&alt=cover_coming_soon.jpg", "x": 174, "y": 284},
+    "tags": ["Mystery", "Suspense"]
+  },
+  {
+    "title": "Still Me",
+    "author": "Jojo Moyes",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780399562457?height=284&alt=cover_coming_soon.jpg", "x": 188, "y": 284},
+    "tags": ["Romance", "Fiction"]
+  },
+  {
+    "title": "Judgment Road",
+    "author": "Christine Feehan",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780451488510?height=284&alt=cover_coming_soon.jpg", "x": 176, "y": 284},
+    "tags": ["Romance", "Fiction"]
+  },
+  {
+    "title": "Iron Gold",
+    "author": "Peirce Brown",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780425285916?height=284&alt=cover_coming_soon.jpg", "x": 187, "y": 284},
+    "tags": ["Science Fiction", "Fiction"]
+  },
+  {
+    "title": "A Night Without Stars",
+    "author": "Peter F. Hamilton",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780345547248", "x": 275, "y": 450},
+    "tags": ["Science Fiction", "Fiction"]
+  },
+  {
+    "title": "Power Game",
+    "author": "Christine Feehan",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780399585463", "x": 279, "y": 450},
+    "tags": ["Science Fiction", "Fiction", "Suspense", "Romance"]
+  },
+  {
+    "title": "Immortal Reign",
+    "author": "Morgan Rhodes",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9781595148247", "x": 299, "y": 450},
+    "tags": ["Teen & Young Adult", "Fantasy", "Fiction", "Romance"]
+  },
+  {
+    "title": "Otherworld",
+    "author": "Jason Segel",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9781101939321", "x": 298, "y": 450},
+    "tags": ["Teen & Young Adult", "Science Fiction", "Social Issues"]
+  },
+  {
+    "title": "Turtles All the Way Down",
+    "author": "John Green",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780525555384", "x":298 , "y": 450},
+    "tags": ["Teen & Young Adult", "Social Issues"]
+  },
+  {
+    "title": "The Square and the Tower",
+    "author": "Niall Ferguson",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780735222915", "x": 296, "y": 450},
+    "tags": ["History", "Politics"]
+  },
+  {
+    "title": "Playing With Fire",
+    "author": "Lawrence O'Donnell",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780399563140", "x": 296, "y": 450},
+    "tags": ["Politics", "History", "Biographies"]
+  },
+  {
+    "title": "The Line Becomes a River",
+    "author": "Francisco Cantu",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780735217713", "x": 298, "y": 450},
+    "tags": ["Biographies"]
+  },
+  {
+    "title": "Sneakers",
+    "author": "Howie Kahn",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9780448494333", "x": 346, "y": 450},
+    "tags": ["Biographies", "Teen & Young Adult"]
+  },
+  {
+    "title": "American Radical",
+    "author": "Tamer Elnoury",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9781101986158", "x": 298, "y": 450},
+    "tags": ["Politics", "Biographies"]
+  },
+  {
+    "title": "Upstream",
+    "author": "Mary Oliver",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9781594206702", "x": 297, "y": 450},
+    "tags": ["Classics"]
+  },
+  {
+    "title": "Small Victories",
+    "author": "Anne Lamott",
+    "cover": {"url": "https://images.penguinrandomhouse.com/cover/9781594486296", "x": 267, "y": 450},
+    "tags": ["Classics"]
+  }
+]
