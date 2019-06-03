@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController modalPresentationStyle="overFullScreen" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="efR-eW-nfF"/>
+                        <viewControllerLayoutGuide type="bottom" id="g97-55-MGJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test" translatesAutoresizingMaskIntoConstraints="NO" id="eEC-cx-13Z">
+                                <rect key="frame" x="0.0" y="-6" width="375" height="824"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loadingIcon" translatesAutoresizingMaskIntoConstraints="NO" id="oPY-s0-W2M">
+                                <rect key="frame" x="87" y="305.66666666666669" width="200" height="200"/>
+                                <color key="backgroundColor" red="0.56131883550101069" green="1" blue="0.11957807200530479" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="3cE-zf-U1i"/>
+                                    <constraint firstAttribute="height" constant="200" id="JoS-JR-NhR"/>
+                                    <constraint firstAttribute="width" secondItem="oPY-s0-W2M" secondAttribute="height" multiplier="1:1" id="mtQ-Cj-z8a"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="g97-55-MGJ" firstAttribute="top" secondItem="eEC-cx-13Z" secondAttribute="bottom" constant="-40" id="A3B-ym-lGB"/>
+                            <constraint firstItem="eEC-cx-13Z" firstAttribute="top" secondItem="efR-eW-nfF" secondAttribute="bottom" constant="-50" id="Mk4-r6-Okv"/>
+                            <constraint firstItem="eEC-cx-13Z" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Z1n-BL-YEY"/>
+                            <constraint firstItem="oPY-s0-W2M" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gqk-c1-Dkf"/>
+                            <constraint firstItem="oPY-s0-W2M" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="qQ5-hE-rJk"/>
+                            <constraint firstAttribute="trailing" secondItem="eEC-cx-13Z" secondAttribute="trailing" id="wXZ-Js-pld"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <splitViewMasterSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="loadingIcon" width="512" height="512"/>
+        <image name="test" width="375" height="812"/>
+    </resources>
+</document>
