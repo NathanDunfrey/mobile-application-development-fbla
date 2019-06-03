@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "ff6d946136654f28cb9e1f05c8aeddb8--abandoned-library-abandoned-places.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "ff6d946136654f28cb9e1f05c8aeddb8--abandoned-library-abandoned-places-1.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "ff6d946136654f28cb9e1f05c8aeddb8--abandoned-library-abandoned-places-2.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
