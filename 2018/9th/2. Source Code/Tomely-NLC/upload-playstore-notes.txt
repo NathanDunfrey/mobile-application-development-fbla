@@ -1,0 +1,7 @@
+1. keytool -genkey -v -keystore tomely-release-key.keystore -alias tomely-key-alias -keyalg RSA -keysize 2048 -validity 10000
+2. Add below to ~/.gradle/gradle.properties
+TOMELY_PROJECT_RELEASE_STORE_FILE=tomely-release-key.keystore
+TOMELY_PROJECT_RELEASE_KEY_ALIAS=tomely-key-alias
+TOMELY_PROJECT_RELEASE_STORE_PASSWORD=tomelyfbla1718
+TOMELY_PROJECT_RELEASE_KEY_PASSWORD=tomelyfbla1718
+3. copy tomely-release-key.keystore file to android/app/

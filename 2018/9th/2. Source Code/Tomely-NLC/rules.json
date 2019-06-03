@@ -1,0 +1,25 @@
+// These rules require authentication
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+
+    "users": {
+      "$uid": {
+        "books": {
+          ".indexOn": "status"
+        }
+      }
+    },
+
+    "all_books": {
+      "$uid": {
+        ".indexOn": ["isbn", "author", "title"]
+      }
+    },
+
+    "requests": {
+      ".indexOn": "status"
+    }
+  }
+}
