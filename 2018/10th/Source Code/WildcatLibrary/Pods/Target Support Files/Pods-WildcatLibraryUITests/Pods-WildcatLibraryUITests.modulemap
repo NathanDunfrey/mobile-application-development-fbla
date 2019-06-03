@@ -1,0 +1,6 @@
+framework module Pods_WildcatLibraryUITests {
+  umbrella header "Pods-WildcatLibraryUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
